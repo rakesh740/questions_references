@@ -28,13 +28,24 @@ func buildCharDifferenceTable(first, second string) map[rune]int {
 }
 
 /*
- * Complete the checkIfStringIsOneEditAway function below.
+ * Complete the check If String Is One Edit Away function below.
  */
+
+func diff(a, b int) int {
+	if a < b {
+		return b - a
+	}
+	return a - b
+}
 
 func checkIfStringIsOneEditAway(first, second string) bool {
 	/*
 	 * Write your code here.
 	 */
+
+	if diff(len(first), len(second)) > 1 {
+		return false
+	}
 
 	first = strings.ToLower(first)
 	second = strings.ToLower(second)
@@ -58,7 +69,7 @@ func checkMaxOneOdd(table map[rune]int) bool {
 
 func main() {
 
-	result := checkIfStringIsOneEditAway("palesp", "pales")
+	result := checkIfStringIsOneEditAway("palespp", "pales")
 
 	fmt.Printf("\n%t \n", result)
 
