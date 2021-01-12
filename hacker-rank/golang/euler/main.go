@@ -2,35 +2,6 @@ package main
 
 import "fmt"
 
-// type groupChars []rune
-
-// func isVowel(c rune) bool {
-// 	vowels := groupChars{'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
-// 	for _, value := range vowels {
-// 		if value == c {
-// 			return true
-// 		}
-// 	}
-// 	return false
-// }
-
-// func example() {
-// 	myString := "OLapOKA3EOR"
-
-//     fmt.Printf("%T\n", myString)
-
-// 	// fmt.Printf("%T" , myString)
-// 	t := 0
-// 	for _, value := range myString {
-// 		switch value {
-// 		case 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U':
-// 			t++
-// 		}
-// 	}
-// 	fmt.Printf("%d Vowels.", t)
-
-// }
-
 func isVowel(value rune) {
 
 }
