@@ -6,7 +6,7 @@ func main() {
 
 	nums := []int{5}
 
-	fmt.Println("Hello, 世界", search(nums, 5))
+	fmt.Println("Hello ", search(nums, 5))
 }
 
 func search(nums []int, target int) int {
