@@ -1,29 +1,25 @@
-type MyHashSet struct {
-    
-}
+package designhashset
 
+type MyHashSet struct {
+}
 
 /** Initialize your data structure here. */
 func Constructor() MyHashSet {
-    
+	return MyHashSet{}
 }
 
+func (this *MyHashSet) Add(key int) {
 
-func (this *MyHashSet) Add(key int)  {
-    
 }
 
+func (this *MyHashSet) Remove(key int) {
 
-func (this *MyHashSet) Remove(key int)  {
-    
 }
-
 
 /** Returns true if this set contains the specified element */
 func (this *MyHashSet) Contains(key int) bool {
-    
+	return true
 }
-
 
 /**
  * Your MyHashSet object will be instantiated and called as such:

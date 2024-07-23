@@ -16,7 +16,7 @@ func twoSum(nums []int, target int) []int {
 	return result
 }
 
-func twoSumbetter(nums []int, target int) []int {
+func twoSumBetter(nums []int, target int) []int {
 
 	m := make(map[int]int)
 
