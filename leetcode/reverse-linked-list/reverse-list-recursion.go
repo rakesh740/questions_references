@@ -7,11 +7,6 @@
  */
 package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func reverseList1(head *ListNode) *ListNode {
 
 	if head == nil || head.Next == nil {
@@ -47,7 +42,7 @@ func reverseListIter(head *ListNode) *ListNode {
  *     Next *ListNode
  * }
  */
-func reverseList(head *ListNode) *ListNode {
+func reverseList2(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
