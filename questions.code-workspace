@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.sideBar.location": "right",
+		"editor.acceptSuggestionOnEnter": "on"
+	}
 }
