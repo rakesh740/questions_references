@@ -36,6 +36,6 @@ func productExceptSelf(nums []int) []int {
 	}
 
 	// multiply with every number then divide by each number as go through the loop
-
+ 
 	return output
 }
