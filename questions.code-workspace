@@ -6,6 +6,9 @@
 	],
 	"settings": {
 		"workbench.sideBar.location": "right",
-		"editor.acceptSuggestionOnEnter": "on"
+		"editor.acceptSuggestionOnEnter": "on",
+		"cSpell.words": [
+			"struct"
+		]
 	}
 }
