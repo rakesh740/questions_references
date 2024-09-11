@@ -39,5 +39,6 @@
 2. `VendingMachine` checks inventory and price.
 3. User inserts money.
 4. `VendingMachine` verifies the amount.
-5. If sufficient, product is dispensed and change is given if necessary.
+5. If sufficient, product is dispensed and change is given if necessary. not necessary if using UPI
 6. Inventory is updated.
+7. check total amount.

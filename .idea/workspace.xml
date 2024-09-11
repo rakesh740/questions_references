@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13eb17d6-5755-42a1-b919-a8cb7b84f0bb" name="Changes" comment="">
+    <list default="true" id="13eb17d6-5755-42a1-b919-a8cb7b84f0bb" name="Changes" comment="tic tac toe game">
+      <change afterPath="$PROJECT_DIR$/GOLANG_LLD_Design/vending_machine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sa_tech_hacker_rank/interview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tech_wave_interview/interiew.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOLANG_LLD_Design/parking Lot System/parking-lot.go" beforeDir="false" afterPath="$PROJECT_DIR$/GOLANG_LLD_Design/parking Lot System/parking-lot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GOLANG_LLD_Design/vending_machine/vending_machine_design.md" beforeDir="false" afterPath="$PROJECT_DIR$/GOLANG_LLD_Design/vending_machine/vending_machine_design.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
@@ -20,12 +33,17 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2k19E9o2LlhR0dT2rXQfTdYJsV2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/rakesh740/questions/sa_tech_hacker_rank.executor": "Run",
     "Go Build.go run main.go.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -42,7 +60,16 @@
     "settings.editor.selected.configurable": "preferences.customizations"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/rakesh740/questions/sa_tech_hacker_rank">
+    <configuration name="go build github.com/rakesh740/questions/sa_tech_hacker_rank" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="questions_references" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/rakesh740/questions/sa_tech_hacker_rank" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/sa_tech_hacker_rank/interview.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go run main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="questions_references" />
       <working_directory value="$PROJECT_DIR$" />
@@ -55,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/rakesh740/questions/sa_tech_hacker_rank" />
         <item itemvalue="Go Build.go run main.go" />
       </list>
     </recent_temporary>
